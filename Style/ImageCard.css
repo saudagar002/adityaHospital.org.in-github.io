@@ -1,0 +1,39 @@
+/* ImageCard.css */
+.image-card {
+  width: 200px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out
+}
+h1{
+
+  margin-left: 2cm;
+}
+
+.image-card:hover {
+  transform: scale(1.1);
+}
+
+.image-card.clicked {
+  /* background: url('./background-image.jpg') center/cover; */
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+}
+
+.page-heading {
+  text-align: center;
+}
+
+.page-info {
+  text-align: center;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 15px;
+}

@@ -1,0 +1,17 @@
+Obstetrics and Gynecology Department                   
+1-ANC Check up                                   
+2-Gynecological Services                                                  
+3-Sonography center                                                            
+4-Well equipped Operation Theater and labour room         
+5-Govt. approved MTP centre (Less than 12 weeks)                                                                
+6-Govt. Approved Tubectomy centre                  
+7-Infertility treatment                                 
+8-Menopause clinic                                  
+9-Adolescent clinic                                   
+10-laproscopic surgery                                
+  Ophthalmology Department
+1-Phacoemusification cataract surgery and IOL implantation
+2-Slit lamp examination
+3-Autorefractometer 
+4-Examination of Retina in hypertension and diabetes mellitus
+5-Pterygium surgery

@@ -1,0 +1,18 @@
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+  margin-top: 7cm;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+.footer .section {
+  margin-bottom: 30px;
+}
+
+.footer h4 {
+  margin-bottom: 20px;
+}

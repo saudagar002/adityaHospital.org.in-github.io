@@ -1,0 +1,305 @@
+
+
+
+
+.image-row {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+.ImageCard {
+  position: relative;
+  flex: 0 1 calc(33.333% - 20px); 
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+} 
+
+.ImageCard img {
+  width: 350px;
+  height: 300px;
+  display: block;
+  border: 5px solid black;
+  box-sizing: border-box;
+} 
+
+.ImageCard .name{
+  font-size: 1cm!important;
+  text-align: center;
+  padding: 10px;        
+} 
+
+.page-heading {
+  text-align: center;
+  color: #333; /* Adjust color as needed */
+  margin-top: 3cm;
+}
+
+.page-heading + h1 {
+  text-align: center;
+  color: #555; /* Adjust color as needed */
+}
+
+.section-heading {
+  text-align: center;
+  color: #555; /* Adjust color as needed */
+
+  
+
+}
+
+.section-info {
+
+  text-align: center;
+  color: #555; 
+  font-size: 20px;
+}
+
+.page-info {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  color: #777; /* Adjust color as needed */
+}
+
+h1 {
+  font-size: 24px;
+  color: #333; /* Adjust color as needed */
+}
+
+p {
+  margin-bottom: 20px;
+  color: #555; /* Adjust color as needed */
+}
+
+.image-container {
+  max-width: 1200px; /* Set a maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.image-row {
+  display: flex; /* Use flexbox to create a row layout */
+  justify-content: space-between; /* Distribute items evenly along the row */
+  margin-bottom: 20px; /* Add some space between rows */
+}
+
+.ImageCard {
+  flex-basis: calc(33.33% - 10px); /* Set width for each image card */
+  margin-right: 10px; 
+}
+
+
+.ImageCard:last-child {
+  margin-right: 0; /* Remove margin from the last image card in a row */
+}
+
+@media screen and (max-width: 768px) {
+  .ImageCard {
+    flex-basis: calc(50% - 10px); /* Set width for each image card on smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .ImageCard {
+    flex-basis: 100%; /* Set full width for each image card on even smaller screens */
+    margin-right: 0; /* Remove margin on smaller screens */
+    margin-bottom: 10px; /* Add some space between rows on smaller screens */
+  }
+}
+
+.ImageCard {
+  text-align: center;
+}
+
+
+
+.ImageCard img {
+  border: 3px solid #000; /* Adjust thickness and color as needed */
+}
+
+
+.image-container.image-row .ImageCard .imageCard .name {
+  text-align: center; /* Center align the image name */
+  font-size: 50px !important; /* Adjust the font size as needed */
+  font-weight: bold; /* Apply font weight */
+
+}
+
+
+/* Internal CSS */
+.ImageCss .ImageCard{
+  /* Adjust specificity as needed */
+  font-size: 5cm;
+  /* font-weight: bold; */
+  /* color: white ; */
+}
+
+
+.page-heading {
+  text-decoration: underline;
+  /* color: red; */
+}
+
+.section-heading {
+
+  text-decoration: underline;
+}
+
+
+
+/* /////////////////////////////////////////////////////////////// */
+
+
+.gyanocoloy {
+  margin: 20px;
+  margin-top: 3cm;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.ImageCard {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ImageCard h3 {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.ImageCard img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.gyanocoloy {
+  text-align: center;
+}
+
+.gyanocoloy h2 {
+  font-size: 30px; 
+  font-weight: 700;/* Adjust the font size as needed */
+  text-decoration: underline;
+}
+
+.gyanocoloy p {
+  font-size: 25px;
+  font-weight: 600; /* Adjust the font size as needed */
+}
+
+.gyanocoloy p span {
+  text-decoration: underline;
+}
+
+/* Add this CSS to your Services.css file */
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ImageCard {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ImageCard:hover {
+  transform: scale(1.05);
+}
+
+
+/* ////////////////////////////// */
+
+/* Services.css */
+
+/* Shared styles for image cards */
+.ImageCard {
+  flex: 1;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ImageCard h3 {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.ImageCard img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .ImageCard {
+    flex-basis: 49%; /* Set width for each image card on smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  .ImageCard {
+    flex-basis: 100%; /* Set full width for each image card on even smaller screens */
+    margin: 2% 0; /* Adjust margin for better spacing between rows on smaller screens */
+  }
+}
+
+
+
+/* Services.css */
+
+/* Shared styles for image cards */
+.ImageCard {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ImageCard h3 {
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.ImageCard img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .ImageCard {
+    flex-basis: calc(50% - 20px); /* Set width for each image card on smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  .ImageCard {
+    flex-basis: calc(100% - 20px); /* Set full width for each image card on even smaller screens */
+    margin-right: 0; /* Remove margin on smaller screens */
+    margin-bottom: 20px; /* Add some space between rows on smaller screens */
+  }
+}
